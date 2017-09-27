@@ -18,5 +18,5 @@ mvn -B clean install
 #fi
 
 cd its
-mvn -B -X clean install -Dsonar.runtimeVersion=$SQ_VERSION
+mvn -B clean install -Dsonar.runtimeVersion=$SQ_VERSION
 
