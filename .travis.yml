@@ -31,3 +31,5 @@ after_failure:
   - ls its/ruling/tests/target/surefire-reports
   - cat its/ruling/tests/target/surefire-reports/*.html
   - cat its/ruling/tests/target/surefire-reports/*.txt
+  - ls its/ruling/projects/.sonar/issues-report
+  - cat its/ruling/projects/.sonar/issues-report/issues-report.html
