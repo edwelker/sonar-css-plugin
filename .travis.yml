@@ -28,5 +28,6 @@ cache:
 script: ./travis.sh
 
 after_failure:
-  - ls target/surefire-reports
-  - cat target/surefire-reports/*.html
+  - ls its/ruling/tests/target/surefire-reports
+  - cat its/ruling/tests/target/surefire-reports/*.html
+  - cat its/ruling/tests/target/surefire-reports/*.txt
